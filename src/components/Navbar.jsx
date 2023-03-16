@@ -9,6 +9,7 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
 
   const [active, setActive] = useState('')
+  const [toggle, setToggle] = useState(false)
 
 
 
@@ -27,15 +28,15 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />{/*w-9 e h-9 set the width and heigth */}
-          <p className="text-white text-[18px] font-bold cursor-pointer">Pedro <span className="sm:block hidden">| Front-End Developer</span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">Pedro &nbsp;<span className="sm:block hidden"> |&nbsp; Front-End Developer</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${active === link.title
-                  ? "text-white"
-                  : "text-secondary"
+                ? "text-white"
+                : "text-secondary"
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
@@ -44,6 +45,36 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className="sm:hidden flex flex-1 justify-end items-center">
+          <img
+            src={toggle ? close : menu}
+            alr="menu"
+            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            onClick={() => setToggle(!toggle)}//once we clicked, we want to change the state, so the setToggle turns into toggle
+          />
+          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-10 my-0 min-w-[140px] z-10 rounded-xl`}>
+            <ul className="list-none flex justify-end items-start flex-col gap-4">
+              {navLinks.map((link) => (
+                <li
+                  key={link.id}
+                  className={`${active === link.title
+                    ? "text-white"
+                    : "text-secondary"
+                    } font-poppins font-medium cursor-pointer text-[16px]`}
+                  onClick={() => {
+                    setToggle(!toggle)//that is going to close when we clicked in a specific link. Now we can close in two different ways.
+                    setActive(link.title)//once we open after we clicked the links, the text will be with text white(active).
+                  }
+                  }
+                >
+                  <a href={`#${link.id}`}>{link.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
   )
