@@ -45,5 +45,5 @@ export {
   jobit,
   tripguide,
   avanti,
-  zaz
+  zaz,
 };
