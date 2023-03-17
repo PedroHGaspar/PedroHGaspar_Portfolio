@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-
 import { styles } from '../styles';
 import { navLinks } from '../constants/index';
 import { logo, menu, close } from '../assets';
@@ -10,8 +9,6 @@ const Navbar = () => {
 
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false)
-
-
 
   return (
     <nav
@@ -34,9 +31,8 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${active === nav.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
