@@ -22,6 +22,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import avanti from '../assets/company/avanti.png'
 import zaz from '../assets/company/zaz.png'
+import web from '../assets/web.png'
 
 export {
   logo,
@@ -46,4 +47,5 @@ export {
   tripguide,
   avanti,
   zaz,
+  web
 };

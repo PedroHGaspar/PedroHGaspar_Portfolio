@@ -16,6 +16,8 @@ import {
   threejs,
   avanti,
   zaz,
+  web,
+  creator
 } from "../assets";
 
 export const navLinks = [
@@ -36,11 +38,15 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: mobile,
+    icon: web,
   },
   {
     title: "React.Js Developer",
     icon: mobile,
+  },
+  {
+    title: "React Native Developer",
+    icon: creator,
   },
   {
     title: "Beginner Backend Developer",
@@ -114,7 +120,7 @@ const experiences = [
       "Developing and maintaining web applications using React.js, HTML5, CSS3, VTEX Node.js and Typescript.  ",
       "Collaborating with cross-functional teams including designers, product managers and other developers to create high quality products for our clients.",
       "Implementing responsive design for all devices and ensuring cross-browser compatibility with diferent environments.",
-      "I'm evolving in AVANTI as a Front End Developer. I'm still a trainee dev, but i'm developing in React.JS(🖤), and training frameworks like Three.js for 3D application improvements and Tailwind for css. ",
+      "I'm evolving in AVANTI as a Front End Developer. I'm still a junior dev, but i'm developing in React.JS(🖤), and training frameworks like Three.js for 3D application improvements and Tailwind for css. ",
     ],
   },
 ];
@@ -130,7 +136,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "He helped me to learn and study front end techs! Good friend, always helping us in our classes.",
+      "He helped me to learn and study front end techniques! Good friend, always helping us in our classes.",
     name: "Alexsander Zunino",
     designation: "Student",
     company: "SENAI",
