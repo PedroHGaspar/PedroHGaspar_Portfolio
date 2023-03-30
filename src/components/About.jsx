@@ -14,7 +14,16 @@ const ServiceCard = ({ index, title, icon }) => {//in the p tag it doesn't need 
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
-
+        <div options={{
+          max: 45,//options for the cards
+          scale: 1,//options for the cards
+          speed: 450//options for the cards
+        }}
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col" //styel for the background card 1:16:50
+        >
+          <img src={icon} alt={title} classname="w-16 h-16 object-contain"/>
+          <h3 className="text-white tex-[20px] font-bold text-center">{title}</h3>
+        </div>
       </motion.div>
     </Tilt>
   )
