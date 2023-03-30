@@ -29,6 +29,7 @@ const ServiceCard = ({ index, title, icon }) => {//in the p tag it doesn't need 
   )
 }
 
+
 const About = () => {
   return (
     <>
