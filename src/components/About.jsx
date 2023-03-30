@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 
 const ServiceCard = ({ index, title, icon }) => {//in the p tag it doesn't need service.title, because we are getting immediatly through props
@@ -28,7 +29,6 @@ const ServiceCard = ({ index, title, icon }) => {//in the p tag it doesn't need 
     </Tilt>
   )
 }
-
 
 const About = () => {
   return (
@@ -54,4 +54,5 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about") //you can wrap your export default about with the section wrapper by doind this.
+//this wrap is good because it adds content, not only in one section, but in all of them.
