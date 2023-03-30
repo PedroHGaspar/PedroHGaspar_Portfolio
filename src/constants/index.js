@@ -100,7 +100,7 @@ const technologies = [
 const experiences = [
   {
     title: "Intern",
-    company_name: "ZaZTECH",
+    company_name: "ZazTech",
     icon: zaz,
     iconBg: "#383E56",
     date: "May 2022 - August 2022",
