@@ -23,9 +23,13 @@ import tripguide from "./tripguide.png";
 import avanti from '../assets/company/avanti.png'
 import zaz from '../assets/company/zaz.png'
 import web from '../assets/web.png'
+import openAI from './openAI.png'
+import jobApplyer from './jobApplyer.jpeg'
 
 export {
   logo,
+  openAI,
+  jobApplyer,
   backend,
   creator,
   mobile,

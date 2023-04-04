@@ -10,14 +10,14 @@ import {
   nodejs,
   git,
   figma,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   avanti,
   zaz,
   web,
-  creator
+  creator,
+  jobApplyer,
+  openAI
 } from "../assets";
 
 export const navLinks = [
@@ -146,67 +146,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Job Finder",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile-based platform that allows developers to search and apply for jobs. It shows the currency job, the company that is hiring, the expected qualifications, details about the job and the workload.",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    imageProject: jobApplyer,
+    source_code_link: "https://github.com/PedroHGaspar/Project-React-Native",
   },
   {
-    name: "Job IT",
+    name: "Codex ChatGPT Clone",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RestAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    imageProject: openAI,
+    source_code_link: "https://github.com/PedroHGaspar/Project_OpenAI",
   },
 ];
 
