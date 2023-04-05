@@ -78,6 +78,13 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
+
+      <motion.div
+      variants={slideIn("right", "tween", 0.2, 1)}
+      className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"//this is the size where the canvas(earth) will be displayed. The xl:flex-1 is to make both the earth and the contact modal to use the same "section", to stay equal.
+      >
+        <EarthCanvas />
+      </motion.div>
     </div>
   )
 }
