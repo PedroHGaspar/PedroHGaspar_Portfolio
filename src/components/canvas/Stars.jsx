@@ -8,7 +8,7 @@ const Stars = (props) => {
 //this component STARS make the stars in the back of the section.
   const ref = useRef();
   const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 })
-  
+  //in the 12th line, the state is never used, BUT, in this case, the starts are using that prop to recognize like an useState
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10
     ref.current.rotation.y -= delta / 14

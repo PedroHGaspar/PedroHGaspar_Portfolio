@@ -61,7 +61,7 @@ const Works = () => {
     <>{/*the reason why were wrapping in it a fragmente, its because were gonna wrapped into a SectionWrapper in the export*/}
       <motion.div variants={textVariant}>{/*this textVariant will make are <p> tags inside of it animated*/}
         <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
