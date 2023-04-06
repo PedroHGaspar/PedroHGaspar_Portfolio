@@ -24,6 +24,7 @@ import john from '../assets/john.png'
 import alex from '../assets/alex.png'
 import openAI from './openAI.png'
 import jobApplyer from './jobApplyer.jpeg'
+import Avatar from '../assets/Avatar.png'
 
 export {
   logo,
@@ -49,5 +50,6 @@ export {
   threejs,
   avanti,
   zaz,
-  web
+  web,
+  Avatar
 };
