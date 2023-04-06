@@ -44,8 +44,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant}>{/*this textVariant will make are <p> tags inside of it animated*/}
-        <p className={styles.sectionSubText}>What i have done so far</p>
-        <h2 className={styles.sectionHeadText}>Experience</h2>
+        <p className={`${styles.sectionSubText} text-center`}>What i have done so far</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Experience</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

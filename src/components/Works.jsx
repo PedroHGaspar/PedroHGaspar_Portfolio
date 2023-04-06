@@ -60,12 +60,12 @@ const Works = () => {
   return (
     <>{/*the reason why were wrapping in it a fragmente, its because were gonna wrapped into a SectionWrapper in the export*/}
       <motion.div variants={textVariant}>{/*this textVariant will make are <p> tags inside of it animated*/}
-        <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <p className={`${styles.sectionSubText} text-center`}>My Work</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Projects</h2>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">{/* max-w-3xl : make it readable in larger devices and leading-[30px] to change the line height */}
+      <div className="w-full flex text-center">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] w-full leading-[30px] text-center">{/* max-w-3xl : make it readable in larger devices and leading-[30px] to change the line height */}
           These following projects are showcases of my skills and experience. Each project is briefly described with links to the code repositories and live demos in it. It reflects my ability to solve complex problems, to use different technologies and to manage projects effectively.
         </motion.p>
       </div>
@@ -82,4 +82,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => {//in the p tag it doesn't need 
           scale: 1,//options for the cards
           speed: 450//options for the cards
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col" //styel for the background card 1:16:50
+        className="bg-tertiary rounded-[20px] py-5 px-20 min-h-[280px] flex justify-evenly items-center flex-col" //styel for the background card 1:16:50
         >
           <img src={icon} alt={title} classname="w-16 h-16 object-contain"/>
           <h3 className="text-white tex-[20px] font-bold text-center">{title}</h3>
