@@ -10,14 +10,15 @@ import {
   nodejs,
   git,
   figma,
-  tripguide,
   threejs,
   avanti,
   zaz,
   web,
   creator,
   jobApplyer,
-  openAI
+  openAI,
+  john,
+  alex
 } from "../assets";
 
 export const navLinks = [
@@ -132,7 +133,7 @@ const testimonials = [
     name: "João Victor",
     designation: "Front-End Developer",
     company: "AVANTI",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: john,
   },
   {
     testimonial:
@@ -140,7 +141,7 @@ const testimonials = [
     name: "Alexsander Zunino",
     designation: "Student",
     company: "SENAI",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: alex,
   },
 ];
 

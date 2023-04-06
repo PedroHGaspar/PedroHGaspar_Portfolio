@@ -17,17 +17,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import avanti from '../assets/company/avanti.png'
 import zaz from '../assets/company/zaz.png'
 import web from '../assets/web.png'
+import john from '../assets/john.png'
+import alex from '../assets/alex.png'
 import openAI from './openAI.png'
 import jobApplyer from './jobApplyer.jpeg'
 
 export {
   logo,
+  john,
+  alex,
   openAI,
   jobApplyer,
   backend,
@@ -46,9 +47,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   avanti,
   zaz,
   web
