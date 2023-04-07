@@ -10,7 +10,7 @@ import {
   nodejs,
   git,
   figma,
-  threejs,
+  Threejs,
   avanti,
   zaz,
   web,
@@ -94,7 +94,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: Threejs,
   },
   {
     name: "git",

@@ -15,7 +15,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import Threejs from "./tech/Threejs.png";
 
 import avanti from '../assets/company/avanti.png'
 import zaz from '../assets/company/zaz.png'
@@ -47,7 +47,7 @@ export {
   reactjs,
   tailwind,
   typescript,
-  threejs,
+  Threejs,
   avanti,
   zaz,
   web,
