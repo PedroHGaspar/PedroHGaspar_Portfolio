@@ -154,7 +154,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Pedro is a very good student, always accepting new challenges. A student that became my friend and become a developer.",
+      "Pedro is a very good student, always accepting new challenges. A student that became my friend and it's becoming a developer.",
     name: "Rodrigo Farias",
     designation: "PO and Teacher",
     company: "Softplan and SENAI",
