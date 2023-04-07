@@ -22,6 +22,7 @@ import zaz from '../assets/company/zaz.png'
 import web from '../assets/web.png'
 import john from '../assets/john.png'
 import alex from '../assets/alex.png'
+import rodrigo from '../assets/rodrigo.jpg'
 import openAI from './openAI.png'
 import jobApplyer from './jobApplyer.jpeg'
 import Avatar from '../assets/Avatar.png'
@@ -30,6 +31,7 @@ export {
   logo,
   john,
   alex,
+  rodrigo,
   openAI,
   jobApplyer,
   backend,
