@@ -187,7 +187,7 @@ const projects = [
   {
     name: "Codex ChatGPT Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ChatGPT clone made with the openAI API.",
     tags: [
       {
         name: "JavaScript",
